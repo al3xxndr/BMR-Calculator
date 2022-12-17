@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    border-color: rgba(182, 182, 182, 0.372);
+    border-style: solid;
+    padding: 5px;
+    align-items: center;
+}
+.personalinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    border-radius: 2px;
+    border-color: rgba(182, 182, 182, 0.372);
+    border-style: solid;
+}
+.bmrbutton {
+    display:flex;
+    border-radius: 1px;
+    border-color: rgba(182, 182, 182, 0.372);;
+    margin-top:20px;
+}
+input {
+    text-align: center;
+}

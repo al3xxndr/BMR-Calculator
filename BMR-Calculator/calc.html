@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMR CALCULATOR</title>
+    <link rel="stylesheet" href="/styles/calc.css">
+    
+</head>
+
+<body>
+    <div class="header">
+        <h1>BMR CALCULATOR</h1>
+        <h2>Enter Information Below To Get Basic Metabolic Rate (BMR)!</h2>
+    </div>
+
+    <div class="personalinfo">
+        
+        <p>What is your gender? (Type: "male" or "female")</p>
+        <input class="genderinfo" placeholder="Gender" type="text">
+       
+        <p>What is your age?</p> 
+        <input class="ageinfo" placeholder="Age" type="number">
+        <p>What is your height? (cm)</p>
+        <input class="heightinfo" placeholder="Height" type="number">
+        <p>What is your weight? (kg)</p>
+        <input class="weightinfo" placeholder="Weight" type="number">
+        <button class="bmrbutton" onclick="bmrfunction()">CALCULATE BMR</button>
+        <p id="bmrresult"></p>
+
+    </div>
+</body>
+<script src="scripts/bmr.js"></script>
+
+</html>
